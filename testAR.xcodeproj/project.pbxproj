@@ -11,6 +11,7 @@
 		8EC73C1C216C73F200193D51 /* avocado-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C18216C73F100193D51 /* avocado-pop.png */; };
 		8EC73C1D216C73F200193D51 /* apple-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C19216C73F100193D51 /* apple-pop.png */; };
 		8EC73C1E216C73F200193D51 /* strawberry-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C1A216C73F200193D51 /* strawberry-pop.png */; };
+		8EC73C20216C919C00193D51 /* banana-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C1F216C919C00193D51 /* banana-pop.png */; };
 		EDC23B032168A34A0018F725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC23B022168A34A0018F725 /* AppDelegate.swift */; };
 		EDC23B052168A34A0018F725 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC23B042168A34A0018F725 /* art.scnassets */; };
 		EDC23B072168A34A0018F725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC23B062168A34A0018F725 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		8EC73C18216C73F100193D51 /* avocado-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avocado-pop.png"; sourceTree = "<group>"; };
 		8EC73C19216C73F100193D51 /* apple-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-pop.png"; sourceTree = "<group>"; };
 		8EC73C1A216C73F200193D51 /* strawberry-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strawberry-pop.png"; sourceTree = "<group>"; };
+		8EC73C1F216C919C00193D51 /* banana-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana-pop.png"; sourceTree = "<group>"; };
 		EDC23AFF2168A34A0018F725 /* testAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC23B022168A34A0018F725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC23B042168A34A0018F725 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				EDC23B082168A34A0018F725 /* Main.storyboard */,
 				8EC73C17216C73F100193D51 /* tomato-pop.png */,
 				8EC73C19216C73F100193D51 /* apple-pop.png */,
+				8EC73C1F216C919C00193D51 /* banana-pop.png */,
 				8EC73C1A216C73F200193D51 /* strawberry-pop.png */,
 				8EC73C18216C73F100193D51 /* avocado-pop.png */,
 				EDC23B0D2168A34B0018F725 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				8EC73C1B216C73F200193D51 /* tomato-pop.png in Resources */,
 				EDC23B0F2168A34B0018F725 /* LaunchScreen.storyboard in Resources */,
 				8EC73C1E216C73F200193D51 /* strawberry-pop.png in Resources */,
+				8EC73C20216C919C00193D51 /* banana-pop.png in Resources */,
 				EDC23B0A2168A34A0018F725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

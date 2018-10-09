@@ -25,6 +25,18 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.autoenablesDefaultLighting = true
 
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Create a session configuration
+        let configuration = ARWorldTrackingConfiguration()
+        
+        configuration.planeDetection = .horizontal
+        
+        // Run the view's session
+        sceneView.session.run(configuration)
+    }
 }
 
 

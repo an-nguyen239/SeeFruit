@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED2BF65C216A0A9B0099E163 /* tomato-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2BF65B216A0A9B0099E163 /* tomato-pop.png */; };
-		ED58F864216A1B3200A7D293 /* apple-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = ED58F863216A1B3200A7D293 /* apple-pop.png */; };
-		ED58F866216A214300A7D293 /* strawberry-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = ED58F865216A214300A7D293 /* strawberry-pop.png */; };
-		ED58F868216A258C00A7D293 /* avocado-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = ED58F867216A258C00A7D293 /* avocado-pop.png */; };
+		8EC73C1B216C73F200193D51 /* tomato-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C17216C73F100193D51 /* tomato-pop.png */; };
+		8EC73C1C216C73F200193D51 /* avocado-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C18216C73F100193D51 /* avocado-pop.png */; };
+		8EC73C1D216C73F200193D51 /* apple-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C19216C73F100193D51 /* apple-pop.png */; };
+		8EC73C1E216C73F200193D51 /* strawberry-pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC73C1A216C73F200193D51 /* strawberry-pop.png */; };
 		EDC23B032168A34A0018F725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC23B022168A34A0018F725 /* AppDelegate.swift */; };
 		EDC23B052168A34A0018F725 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC23B042168A34A0018F725 /* art.scnassets */; };
 		EDC23B072168A34A0018F725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC23B062168A34A0018F725 /* ViewController.swift */; };
@@ -19,10 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED2BF65B216A0A9B0099E163 /* tomato-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato-pop.png"; sourceTree = "<group>"; };
-		ED58F863216A1B3200A7D293 /* apple-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-pop.png"; sourceTree = "<group>"; };
-		ED58F865216A214300A7D293 /* strawberry-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strawberry-pop.png"; sourceTree = "<group>"; };
-		ED58F867216A258C00A7D293 /* avocado-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avocado-pop.png"; sourceTree = "<group>"; };
+		8EC73C17216C73F100193D51 /* tomato-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato-pop.png"; sourceTree = "<group>"; };
+		8EC73C18216C73F100193D51 /* avocado-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avocado-pop.png"; sourceTree = "<group>"; };
+		8EC73C19216C73F100193D51 /* apple-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-pop.png"; sourceTree = "<group>"; };
+		8EC73C1A216C73F200193D51 /* strawberry-pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strawberry-pop.png"; sourceTree = "<group>"; };
 		EDC23AFF2168A34A0018F725 /* testAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC23B022168A34A0018F725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC23B042168A34A0018F725 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -66,10 +66,10 @@
 				EDC23B042168A34A0018F725 /* art.scnassets */,
 				EDC23B062168A34A0018F725 /* ViewController.swift */,
 				EDC23B082168A34A0018F725 /* Main.storyboard */,
-				ED2BF65B216A0A9B0099E163 /* tomato-pop.png */,
-				ED58F863216A1B3200A7D293 /* apple-pop.png */,
-				ED58F865216A214300A7D293 /* strawberry-pop.png */,
-				ED58F867216A258C00A7D293 /* avocado-pop.png */,
+				8EC73C17216C73F100193D51 /* tomato-pop.png */,
+				8EC73C19216C73F100193D51 /* apple-pop.png */,
+				8EC73C1A216C73F200193D51 /* strawberry-pop.png */,
+				8EC73C18216C73F100193D51 /* avocado-pop.png */,
 				EDC23B0D2168A34B0018F725 /* LaunchScreen.storyboard */,
 				EDC23B102168A34B0018F725 /* Info.plist */,
 			);
@@ -134,12 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC73C1D216C73F200193D51 /* apple-pop.png in Resources */,
 				EDC23B052168A34A0018F725 /* art.scnassets in Resources */,
-				ED58F864216A1B3200A7D293 /* apple-pop.png in Resources */,
-				ED58F868216A258C00A7D293 /* avocado-pop.png in Resources */,
+				8EC73C1C216C73F200193D51 /* avocado-pop.png in Resources */,
+				8EC73C1B216C73F200193D51 /* tomato-pop.png in Resources */,
 				EDC23B0F2168A34B0018F725 /* LaunchScreen.storyboard in Resources */,
-				ED2BF65C216A0A9B0099E163 /* tomato-pop.png in Resources */,
-				ED58F866216A214300A7D293 /* strawberry-pop.png in Resources */,
+				8EC73C1E216C73F200193D51 /* strawberry-pop.png in Resources */,
 				EDC23B0A2168A34A0018F725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

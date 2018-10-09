@@ -12,7 +12,19 @@ import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
+    @IBOutlet var sceneView: ARSCNView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Set the view's delegate
+        sceneView.delegate = self
+        
+        self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
+        
+        sceneView.autoenablesDefaultLighting = true
 
+    }
 }
 
 

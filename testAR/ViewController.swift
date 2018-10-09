@@ -51,6 +51,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         return "tomato"
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let fruitType = getFruitType()
+        let string2 = "art.scnassets/"
+        let string3 = ".scn"
+        let path =  string2 + fruitType + string3
+        print(path)
+    }
+    
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         let fruitType = getFruitType()
         let string1 = "-pop.png"

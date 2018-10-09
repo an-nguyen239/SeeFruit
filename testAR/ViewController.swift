@@ -58,6 +58,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let string3 = ".scn"
         let path =  string2 + fruitType + string3
         print(path)
+        
+        if let touch = touches.first {
+            
+            let touchLocation = touch.location(in: sceneView)
+            
+            let results = sceneView.hitTest(touchLocation, types: .existingPlaneUsingExtent)
+            
+            if let hitResult = results.first {
+                
+                let bananaScene = SCNScene(named: path)!
+                
+                if let bananaNode = bananaScene.rootNode.childNode(withName: fruitType, recursively: true) {
+                    
+                    bananaNode.position = SCNVector3(
+                        x: hitResult.worldTransform.columns.3.x,
+                        y: hitResult.worldTransform.columns.3.y,
+                        z: hitResult.worldTransform.columns.3.z
+                    )
+                    
+                    sceneView.scene.rootNode.addChildNode(bananaNode)
+                    
+                }
+            }
+        }
     }
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {

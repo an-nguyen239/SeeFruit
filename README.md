@@ -1,5 +1,5 @@
 
-# Aloha Fruit
+# See Fruit
 Aloha Fruit is an iOS app that displays an Augmented Reality descriptions and models of an object. 
 
 The main purpose of our team is to develop an app that makes education more appealing and interesting for children. We want to create a fun and high-tech learning tool for them to explore the surrounding environment while enjoying the fresh air outside. 
